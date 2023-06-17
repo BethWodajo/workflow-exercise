@@ -15,7 +15,7 @@ jobs:
       - name: Run Test
         run: npm test
       - name: build
-        run: npm build
+        run: npm run build
 
   Builddeploy:
     runs-on: ubuntu-latest
